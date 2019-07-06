@@ -1,0 +1,15 @@
+Lethbridge
+            Calgary
+            Edmonton
+            Fort_McMurray
+            Fort_Macleod
+            Trochu
+            Red_Deer
+            Canmore
+            Jasper
+            Banff
+            Lloydminister
+            Slave_Lake
+            High_Level
+            Medicine_Hat
+            Valley_View

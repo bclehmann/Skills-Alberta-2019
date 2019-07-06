@@ -1,0 +1,142 @@
+@charset "ISO-8859-1";
+
+#title{
+	width:150px;
+	float:right;
+}
+
+#reactFlight{
+	height:500px;
+	overflow-y:scroll
+}
+
+#displayLinks:focus{
+	box-shadow:none;
+	outline:1px solid #00a9ff;
+}
+
+
+#links ul{
+	padding-left:0px;
+}
+
+#links{
+	background-color:#E9ECEF;
+	font-size:1.6em;
+	
+}
+
+#links, #mobileNav{/*Push to edge of .container*/
+	margin:0px;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+
+
+#links *{
+	display:inline;
+	margin:0px;
+}
+
+#links a{
+	padding:5px;
+	color:#777777;
+	transition-property: color;
+	transition-duration:0.1s;
+}
+
+#links a:hover{
+	color:#000000;
+	
+}
+
+#mobileNav{
+	background-color:#e2e6ea;
+}
+
+#mobileLinks{
+	display:none;
+	list-style:none;
+}
+
+#mobileLinks a{
+	color:black;
+	font-size:1.3em;
+}
+
+#mobileLinks ul{
+	padding-left:0px;
+}
+
+#mobileLinks li{
+	list-style:none;
+}
+
+.green{
+	color:green;
+}
+
+.red{
+	color:red;
+}
+
+.tab{
+	margin-left:30px;
+}
+
+.floatRight{
+	float:right;
+}
+
+.floatLeft{
+	float:left;
+}
+
+.sidebarImg{
+	max-width:300px;
+	padding:15px;
+	clear:right;
+}
+
+.clearRight{
+	clear:right;
+}
+
+.clearLeft{
+	clear:left;
+}
+
+#body > p{
+	margin:15px;
+}
+
+.jumbotron{
+	/*background: linear-gradient(#E9ECEF 5%, #FF9900 6%, #E9ECEF 7%);*/
+	background-color:#E9ECEF;
+}
+
+.displayNone{
+	display:none;
+}
+
+.container{
+	background-color:#ffffffDD;/*White with DD out of FF transparency*/
+	padding-bottom:500px;
+	
+}
+
+#endline{
+	position:fixed;
+	bottom:0px;
+	background-color:#CCCCCC;
+	font-size:0.8em;
+	width:100%;
+	padding:5px;
+	z-index:100;
+	text-align:center;
+}
+
+.bgImage{
+	background-image: url("/Images/calgarybg.jpg");
+	background-size:100%;
+}
